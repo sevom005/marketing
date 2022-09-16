@@ -26,6 +26,24 @@ $("#btnprice4").on("click" , function(){
      $("#all-price").html(allprice +" د.ع");
      })// goods 4
 
+
+     var typed = new Typed(".auto-input", {
+        strings: ["shvan" , "Web Devloper"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+    });
+    // input auto
+
+    var typed2 = new Typed(".auto-input2", {
+        strings:["Website Just For Test"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+    
+    })// input auto
+
+
     $(".btn-all-price").on("click" , function(){
     $(".all-price").removeClass("d-none");
 }) // remove d-none
